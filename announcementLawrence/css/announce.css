@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css?family=Asap|VT323');
+
+#banner{
+	display: block;
+    width: 100%;
+}
+
+#banner img{
+	margin: 0 auto;
+	display: block;
+	align-items: middle;
+}
+#navi ul  {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+body{
+	background-image:url(/Users/School/Desktop/test%20site/announcementLawrence/img/banner.jpg);
+ 	background-size: 100%;
+	background-repeat: no-repeat;
+	background-opacity: .5;
+	font-family: 'Asap', sans-serif;
+	font-family: 'VT323', monospace;
+	align-items: middle;
+
+}
+
+
+body{
+	font-family: 'Asap', sans-serif;
+	font-family: 'VT323', monospace;
+	width: 100%;
+	margin: auto;
+	padding: 0;
+	background-image:url(/Users/School/Desktop/test%20site/announcementLawrence/img/banner.jpg);
+ 	background-size: 100%;
+	background-repeat: no-repeat;
+	background-opacity: .5;
+}
+
+}
+#navi{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    border-radius: 50%;
+    box-shadow: inset 0 0 0 3px #fff;
+    cursor: pointer;
+    height: 32px;
+    margin-bottom: 10px;
+    opacity: .4;
+    position: relative;
+    width: 32px;
+    box-sizing: border-box;
+}
+
+#navi a:hover { 
+    background-color: yellow;
+}
+
+#enter, a{
+    -webkit-transition: font-size 2s; /* Safari */
+    transition: font-size 2s;
+    width: 100%;
+    color: #fff;
+    font-size: 36pt;
+}
+#enter:hover a:hover{
+
+	opacity: .5;
+	font-size: 72pt;
+}
