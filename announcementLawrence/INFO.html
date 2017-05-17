@@ -3,38 +3,104 @@
 <head>
 <style>
 @import url('https://fonts.googleapis.com/css?family=Asap|VT323');
+/*@import url('https://fonts.googleapis.com/css?family=Kanit:100');*/
+
 body{
-	background-color: black;
+	/*https://68.media.tumblr.com/7344d3bee120417ae583544dba12f2e9/tumblr_omhnliajr61s3jszso1_1280.png
+
+	https://68.media.tumblr.com/77ee61049670764ad5eb48348d83ec77/tumblr_odr2qq0TUC1rt479bo1_500.gif
+
+	https://68.media.tumblr.com/a18e129b095713ba25c63cf84f96aa25/tumblr_om4eokoklq1upe1ufo2_540.gif
+
+	https://68.media.tumblr.com/0f96f5b11192979bca2f1e5d5f72862f/tumblr_om4f0dZEyY1upe1ufo1_540.gif
+https://68.media.tumblr.com/a05f3a1a4acbb72382f5fad5104caaf3/tumblr_ojkyitgEUy1uxovwqo1_500.gif
+	*/
 }
 table{
-	width: 60%;
-	display: flex;
-	justify-content: space-around;
-	margin: auto;
+	width:200px;
+	display: block;
 	font-family: 'Asap', sans-serif;
-	color: white;
+	color: black;
+	margin:auto;
+}
+.gifground{
+	background-image: url('https://68.media.tumblr.com/cad6a643ea89d2cd63472253f91f125f/tumblr_on9s0ifvDA1sfyp69o1_r1_500.gif');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: 0% 0%;
+}
+p{
+	line-height: 1.8;
 }
 img{
 	display: flex;
 	align-items: center;
-	    margin-left: auto;
+	margin-left: auto;
     margin-right: auto;
+}
+h1{
+	font-family: 'Kanit', sans-serif;
+
 }
 h2{
 	display:inline;
 }
 td{
 	width:50%;
-		border-style:none none solid none;
+	line-height: 1.5;
+	border-style:none none none none;
+}
+.info{
+	margin: auto;
+	color: white;
+	padding: 1px;
+	font-size: 72pt	;
+}
+.navi ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    z-index: 9999;
+    position: fixed;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.navi li a {
+    display: block;
+    width: 60px;
+}
+.navi img{
+	width: 20px;
+	padding:20px;
+}
+a:link{
+	opacity: .5;
+}
+a:hover{
+	opacity: 1;
 }
 </style>
 	<title>INFO</title>
 </head>
 <body>
+<div class="navi">
+<ul>
+  <li><a href="index.html"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Circle_-_black_simple.svg/2000px-Circle_-_black_simple.svg.png">
+</a></li>
+  <li><a href="vid.html"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Circle_-_black_simple.svg/2000px-Circle_-_black_simple.svg.png"></a></li>
+  <li><a href="INFO.html"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Circle_-_black_simple.svg/2000px-Circle_-_black_simple.svg.png"></a></li>
+  <li><a href="zhib.html"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Circle_-_black_simple.svg/2000px-Circle_-_black_simple.svg.png"></a></li>
+  <li><a href="last.html"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Circle_-_black_simple.svg/2000px-Circle_-_black_simple.svg.png"></a></li>
+</ul>
+</div>
+<div class="gifground">
+<div class="info">
+<h1>MONONOKE HIME</h1>
+</div>
 <table>
-</tr>
 <tr>
-<td colspan="2"><h2>Princess Mononoke follows the journey of the last Emishi prince, Ashitaka, and his attempts to make peace between the human settlement, Irontown, and the creatures living in the forest that surrounds it.</h2>
+<td><h2>Princess Mononoke follows the journey of the last Emishi prince, Ashitaka, and his attempts to make peace between the human settlement, Irontown, and the creatures living in the forest that surrounds it.</h2>
 
 <p>The film begins with Ashitaka saving his village from a vicious assault by killing a demon who is actually the giant boar god Nago embodied by rage. During the fight, Ashitaka receives a demon mark on his right arm, and he is cursed by the Boar God's hatred and pain. Ashitaka is told that the mark will spread throughout his body, killing him. A ball of iron is found inside Nago's corpse, which is somehow connected to the curse. Ashitaka resolves to journey to Nago's origin, the lands to the West, to try and find a cure for his curse. He cuts his hair, signifying his permanent departure from his village, and rides out with Yakul, his loyal red elk. Since it was considered taboo to see off one who is banished, only one person dared to say goodbye to Ashitaka: his 'little sister,' Kaya (according to Miyazaki, actually his bride-to-be; calling herself his 'little sister' was a term of affection), who gives him her crystal dagger so that he would not forget her.</p>
 
@@ -49,20 +115,20 @@ td{
 </tr>
 <tr>
 <td><img src="img/scar.gif"></td>
-<td><p><h2>Ashitaka</h2> literally tranlates to "Leap" in Japanese.  Ashitaka is an Emishi prince who was meant to become leader of his tribe. While rescuing his village from Nago, the demon boar god, Ashitaka's arm is afflicted with a curse that will eventually consume and kill him. Under the effect of the curse, Ashitaka gains superhuman strength, but causes him to grow weaker as time passes. Ashitaka is exiled by his village and sent westward to find the cause of the demon's corruption as well as a cure for his curse.</p>
-<p>After arriving at Irontown, Ashitaka is caught up in the town's war against the mountain gods. Amidst the battle at Irontown, Ashitaka meets San and soon becomes enamored with her. Ashitaka takes San back to Moro and attempts to negotiate a ceasefire between the warring sides. He is unsuccessful. Throughout the film, Ashitaka develops deep feelings for San and eventually falls in love with her. It is stated by Moro that he wanted to share his life with her. At the end of the film, Ashitaka's curse is eventually removed and, though San and Ashitaka have grown close, they go their separate ways: to the forest and to Irontown respectively. However, Ashitaka promises to visit San in the forest whenever he can.</p></td>
-</tr>
-<hr>
-<tr>
-<td><p><h2>San</h2> translates to "Three" in Japanese. When she was a baby, the wolf goddess Moro attacked her parents, who were found damaging the forest. San's parents threw her to Moro as a sacrifice to save their own lives. Moro raised San as her own daughter, and in turn, San treats Moro as her mother and Moro's two natural pups as brothers.</p>
-<p>San's primary concern is protecting the forest and the animals she lives with. San rejects her own humanity and even thinks of herself as a wolf. She has attempted to assassinate Eboshi of Irontown many times, as San believes that Eboshi's death will result in the end of Irontown and human growth into the surrounding forest. It is only by Ashitaka's affection to her that she slowly comes to acknowledge her human side as well.</p>
-<p>After the battle for the Forest Spirit's head, San tells Ashitaka that he is very dear to her, but since she cannot forgive the human race for what they have done to the forest, she will continue to live apart from the humans. San returns to the forest and Ashitaka remains in Irontown.</p></td>
-<td><img src="img/hime.gif"></td>
 </tr>
 <tr>
-<td>Shanice</td>
-<td>Netipe</td>
+	<td><p><h2>Ashitaka</h2> literally tranlates to "Leap" in Japanese.  Ashitaka is an Emishi prince who was meant to become leader of his tribe. While rescuing his village from Nago, the demon boar god, Ashitaka's arm is afflicted with a curse that will eventually consume and kill him. Under the effect of the curse, Ashitaka gains superhuman strength, but causes him to grow weaker as time passes. Ashitaka is exiled by his village and sent westward to find the cause of the demon's corruption as well as a cure for his curse.</p>
+	<p>After arriving at Irontown, Ashitaka is caught up in the town's war against the mountain gods. Amidst the battle at Irontown, Ashitaka meets San and soon becomes enamored with her. Ashitaka takes San back to Moro and attempts to negotiate a ceasefire between the warring sides. He is unsuccessful. Throughout the film, Ashitaka develops deep feelings for San and eventually falls in love with her. It is stated by Moro that he wanted to share his life with her. At the end of the film, Ashitaka's curse is eventually removed and, though San and Ashitaka have grown close, they go their separate ways: to the forest and to Irontown respectively. However, Ashitaka promises to visit San in the forest whenever he can.</p></td>
+</tr>
+<tr>
+	<td><img src="img/hime.gif"></td>
+	</tr>
+	<tr>
+	<td><p><h2>San</h2> translates to "Three" in Japanese. When she was a baby, the wolf goddess Moro attacked her parents, who were found damaging the forest. San's parents threw her to Moro as a sacrifice to save their own lives. Moro raised San as her own daughter, and in turn, San treats Moro as her mother and Moro's two natural pups as brothers.</p>
+	<p>San's primary concern is protecting the forest and the animals she lives with. San rejects her own humanity and even thinks of herself as a wolf. She has attempted to assassinate Eboshi of Irontown many times, as San believes that Eboshi's death will result in the end of Irontown and human growth into the surrounding forest. It is only by Ashitaka's affection to her that she slowly comes to acknowledge her human side as well.</p>
+	<p>After the battle for the Forest Spirit's head, San tells Ashitaka that he is very dear to her, but since she cannot forgive the human race for what they have done to the forest, she will continue to live apart from the humans. San returns to the forest and Ashitaka remains in Irontown.</p></td>
 </tr>
 </table>
+</div>
 </body>
 </html>
