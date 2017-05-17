@@ -13,11 +13,45 @@ iframe{
 	height:100%;
 	z-index: -1;
 }
+.navi ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    z-index: 9999;
+    position: fixed;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.navi li a {
+    display: block;
+    width: 60px;
+}
+.navi img{
+	width: 20px;
+	padding:20px;
+}
+a:link{
+	opacity: .5;
+}
+a:hover{
+	opacity: 1;
+}
 
 </style>
 	<title>ZELDA</title>
 </head>
 <body>
+<div class="navi">
+<ul>
+  <li><a href="index.html"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Circle_-_black_simple.svg/2000px-Circle_-_black_simple.svg.png">
+</a></li>
+  <li><a href="vid.html"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Circle_-_black_simple.svg/2000px-Circle_-_black_simple.svg.png"></a></li>
+  <li><a href="INFO.html"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Circle_-_black_simple.svg/2000px-Circle_-_black_simple.svg.png"></a></li>
+  <li><a href="zhib.html"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Circle_-_black_simple.svg/2000px-Circle_-_black_simple.svg.png"></a></li>
+  <li><a href="last.html"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Circle_-_black_simple.svg/2000px-Circle_-_black_simple.svg.png"></a></li>
+</ul>
+</div>
 <iframe src="https://www.youtube.com/embed/Wxav9Jj7R68?autoplay=1" frameborder="0"; height: 100%; width:100%;  allowfullscreen></iframe>
 </body>
 </html>

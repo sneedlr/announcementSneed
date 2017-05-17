@@ -1,73 +1,77 @@
-@import url('https://fonts.googleapis.com/css?family=Asap|VT323');
+@import url('https://fonts.googleapis.com/css?family=Fredericka+the+Great');
 
 #banner{
 	display: block;
     width: 100%;
+    float: right
 }
 
 #banner img{
 	margin: 0 auto;
-	display: block;
-	align-items: middle;
 }
-#navi ul  {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-body{
-	background-image:url(/Users/School/Desktop/test%20site/announcementLawrence/img/banner.jpg);
- 	background-size: 100%;
-	background-repeat: no-repeat;
-	background-opacity: .5;
-	font-family: 'Asap', sans-serif;
-	font-family: 'VT323', monospace;
-	align-items: middle;
-
-}
-
 
 body{
-	font-family: 'Asap', sans-serif;
-	font-family: 'VT323', monospace;
+    font-family: 'Fredericka the Great', cursive;
+/*	font-family: 'VT323', monospace;*/
 	width: 100%;
 	margin: auto;
 	padding: 0;
-	background-image:url(/Users/School/Desktop/test%20site/announcementLawrence/img/banner.jpg);
- 	background-size: 100%;
+	background: url('https://68.media.tumblr.com/0f96f5b11192979bca2f1e5d5f72862f/tumblr_om4f0dZEyY1upe1ufo1_540.gif');
+ 	background-size: cover;
 	background-repeat: no-repeat;
 	background-opacity: .5;
+    text-align:center;
+    font-size: 50pt;
 }
+#enter, a{
+    width: 100%;
+    text-decoration: none;
+    opacity:.0;
+    transition: opacity 3s;
 
 }
-#navi{
+#enter:hover, a:hover{
+    opacity: 1.0;
+    -webkit-transition: opacity 10s;
+    color: white;
+    text-decoration: none;
+}
+
+#enter:link, a{
+    color: white;
+    font-size: ;
+    text-decoration: none;
+    opacity:.1;
+}
+#enter:active, a {
+    color: yellow;
+    text-decoration: none;
+} 
+#enter:visited, a{
+    color: white;
+    text-decoration: none;
+}
+.navi ul{
     list-style-type: none;
     margin: 0;
     padding: 0;
-    border-radius: 50%;
-    box-shadow: inset 0 0 0 3px #fff;
-    cursor: pointer;
-    height: 32px;
-    margin-bottom: 10px;
-    opacity: .4;
-    position: relative;
-    width: 32px;
-    box-sizing: border-box;
+    z-index: 9999;
+    position: fixed;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 }
-
-#navi a:hover { 
-    background-color: yellow;
+.navi li a {
+    display: block;
+    width: 60px;
 }
-
-#enter, a{
-    -webkit-transition: font-size 2s; /* Safari */
-    transition: font-size 2s;
-    width: 100%;
-    color: #fff;
-    font-size: 36pt;
+.navi img{
+    width: 20px;
+    padding:20px;
 }
-#enter:hover a:hover{
-
-	opacity: .5;
-	font-size: 72pt;
+.navi a:link{
+    opacity: .5;
+}
+.navi a:hover{
+    opacity: 1;
 }
