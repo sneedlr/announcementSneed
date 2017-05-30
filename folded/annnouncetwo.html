@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+a{
+	font-size: 24pt;
+	color: black
+}
+h1{
+		
+		color:#0b8665;
+		display:block;
+		width: 80%;
+		padding-left: 100px;
+		font-size: 50pt;
+
+}
+em{
+	color:#0b8665;
+	font-size: 24pt;
+}
+p{
+	display:block;
+	margin:auto;
+	color: black;
+	width: 50%;
+	font-family: 'Nunito', sans-serif;
+	text-align: justify;
+}
+#banner{
+	display:block;
+	margin:auto;
+	border-radius: 50%;
+	height:400px;
+}
+img{
+	display:block;
+	margin:auto;
+}
+.back-button, .forward-button{
+	display:block;
+	margin-left: 50%;
+}
+#slide{
+	margin-right:  50%;
+}
+a:link{
+	text-decoration: none;
+	color:black;
+}
+a:visited{
+	text-decoration: none;
+	color:black;
+}
+a:active{
+	text-decoration: none;
+	color:black;
+}
+.ling{
+	position:fixed;
+}
+</style>
+	<title>kdot</title>
+</head>
+<body>
+<a id="ling" href="main.html">糞</a>
+<img id="banner" src="https://68.media.tumblr.com/452f0471dcfe669b884f61c5212fcebf/tumblr_oodd5jIShW1s9vd6bo1_500.gif">
+<!-- <h1>Kendrick Lamar</h1> -->
+<br>
+<p><em>Kendrick Lamar Duckworth</em> (born June 17, 1987) is an American rapper and songwriter from Compton. He first gained major attention after the release of his 2010 mixtape O(verly) D(edicated). In 2011, his album Section.80, released exclusively through iTunes, instantly ranked as one of the top digital hip-hop releases of the year. In 2012, he crossed over to mainstream audiences with his major label debut good kid, m.A.A.d city which was widely regarded as an instant classic. In 2015, he dropped To Pimp a Butterfly to widespread acclaim. The album debuted at No. 1 on the Billboard 200 Albums Chart. The following year, untitled unmastered. dropped by surprise. In April of 2017, Kendrick dropped DAMN. on Good Friday.</p>
+<br>
+<p>Known for his storytelling, imagery, wordplay, passion and varied song structures, Kendrick brings hard-hitting lyricism with narratives to the West Coast, not traditionally known for its lyricists.</p>
+<br>
+<p>Kendrick Lamar’s position within the rap game is held incredibly high. Lamar is placed No. 9 on Billboard’s The 10 Best Rappers of All Time, along with popular artists, Jay-Z, Nas, Notorious B.I.G., and more.</p>
+<br>
+<p>Lamar is a member of the hip-hop collective Black Hippy, along with Jay Rock, ScHoolboy Q, and Ab-Soul, all of which are a part of the TDE (Top Dawg Entertainment) label. He is also signed to Dr. Dre’s Aftermath Entertainment imprint label under Interscope Records.</p>
+
+<a class="forward-button" onclick="plusDivs(+1)">&#10095;</a>
+<img class="slide" src="http://cps-static.rovicorp.com/3/JPG_1080/MI0004/223/MI0004223138.jpg?partner=allrovi.com">
+<img class="slide" src="http://cps-static.rovicorp.com/3/JPG_1080/MI0004/026/MI0004026111.jpg?partner=allrovi.com">
+<img class="slide" src="http://cps-static.rovicorp.com/3/JPG_1080/MI0003/847/MI0003847110.jpg?partner=allrovi.com">
+<img class="slide" src="http://cps-static.rovicorp.com/3/JPG_1080/MI0003/451/MI0003451496.jpg?partner=allrovi.com">
+<img class="slide" src="http://cps-static.rovicorp.com/3/JPG_1080/MI0003/201/MI0003201072.jpg?partner=allrovi.com">
+<!-- <img class="slide" src="https://68.media.tumblr.com/6e57621c3d3be31a4adca536e3d3069e/tumblr_oqey9sDHgx1qzd6kwo8_500.gif">
+<img class="slide" src="https://68.media.tumblr.com/2c150ab49f574715c334c033317cc38a/tumblr_oqey9sDHgx1qzd6kwo6_500.gif">
+<img class="slide" src="https://68.media.tumblr.com/2d00d444638972d7c46de4fa222dfef6/tumblr_oqey9sDHgx1qzd6kwo7_500.gif">
+<img class="slide" src="https://68.media.tumblr.com/395b88ac0184eb0b944d19e5145bfd92/tumblr_oqey9sDHgx1qzd6kwo2_500.gif">
+<img class="slide" src="https://68.media.tumblr.com/395b88ac0184eb0b944d19e5145bfd92/tumblr_oqey9sDHgx1qzd6kwo2_500.gif"> -->
+<a class="back-button" onclick="plusDivs(-1)">&#10094;</a>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n){
+	showDivs(slideIndex +=n);
+}
+
+function showDivs(n){
+	var i;
+	var x = document.getElementsByClassName("slide");
+	if(n > x.length){slideIndex = 1}
+	if(n < 1){slideIndex = x.length}
+	for(i = 0; i < x.length; i++){
+		x[i].style.display = "none";
+	}
+	x[slideIndex-1].style.display = "block";
+}
+</script>
+</body>
+</html>
